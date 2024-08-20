@@ -18,11 +18,12 @@ public class euler {
                 }
                 result=result-result/p;    //result-=result/p
             }
-            if(n>1)
-            {
-                result-=result/n;
-            }
+        }
+        if(n>1)
+        {
+            result=result-result/n;
         }
         return result;
     }
+    
 }
